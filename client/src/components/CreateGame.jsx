@@ -5,7 +5,7 @@ const CreateGame = ({ onFormSubmit }) => {
 
   return (
     <div>
-      <h4>Create new game</h4>
+      <h4 style={{fontFamily: "fantasy", marginTop: "30px"}}>CREATE NEW GAME</h4>
       <div className="form-group row">
         <div className="col">
           <input

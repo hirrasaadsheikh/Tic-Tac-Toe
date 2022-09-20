@@ -4,11 +4,10 @@
   justify-content: space-between;
   width: 400px;
 }
-
 .square {
   height: 100px;
   flex: 0 0 32%;
-  border: 1px solid lightgrey;
+  border: 1px solid bisque;
   margin-bottom: 5px;
 }
 

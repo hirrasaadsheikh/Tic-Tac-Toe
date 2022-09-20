@@ -6,7 +6,7 @@ const JoinGame = ({ onFormSubmit }) => {
 
   return (
     <div>
-      <h4>Join existing game</h4>
+      <h4 style={{fontFamily: "fantasy", marginTop: "30px"}}>JOIN EXISTING GAME</h4>
       <div className="form-group row">
         <div className="col">
           <input
@@ -27,7 +27,7 @@ const JoinGame = ({ onFormSubmit }) => {
         <div className="col">
           <button
             onClick={() => onFormSubmit(name, gameId)}
-            className="btn btn-warning"
+            className="btn btn-success"
           >
             Join Game
           </button>

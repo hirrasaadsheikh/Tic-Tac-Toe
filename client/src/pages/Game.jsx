@@ -76,7 +76,7 @@ const Game = ({ name, gameId }) => {
       {game && <h5>Game ID: {game.id}</h5>}
 
       {game.status === 'gameOver' && (
-        <div className="alert alert-info">{winnerMessage}</div>
+        <div className="alert alert-success">{winnerMessage}</div>
       )}
       <hr />
       <Board

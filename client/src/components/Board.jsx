@@ -20,8 +20,10 @@ const Board = ({ game, player, onSquareClick, winner }) => {
             canPlay={canPlay}
             isWinnerSquare={isWinnerSquare}
           />
+
         );
       })}
+      <button style={{marginTop: 30}} >Reset Game</button>
     </div>
   );
 };

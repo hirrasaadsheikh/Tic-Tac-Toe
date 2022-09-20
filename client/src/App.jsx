@@ -16,17 +16,19 @@ const App = () => {
   };
 
   return (
+    <div className= "bg">
     <div className="container">
-      <h3>Multiplayer X-O</h3>
+      <h3 style={{textAlign:"center", fontSize: "30", fontFamily : "fantasy"}}>Player X vs Player O</h3>
       {!showGame && (
         <>
           <CreateGame onFormSubmit={onFormSubmit} />
-          <h4>---------- OR ----------</h4>
+          <h4 style={{ textAlign: "center", fontFamily:"fantasy"}}>OR </h4>
           <JoinGame onFormSubmit={onFormSubmit} />
         </>
       )}
 
       {showGame && <Game name={name} gameId={gameId} />}
+    </div>
     </div>
   );
 };

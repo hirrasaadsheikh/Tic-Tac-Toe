@@ -1,37 +1,31 @@
 # Tick Tac Toe
 
-Repo for the tutorial [Multiplayer Tic Tac Toe App - Arabic](https://barmaga.io/en/courses/build-multiplayer-tic-tac-toe/lectures/part-1)
+################################
+   Multiplayer Tic Tac Toe App 
+################################
+
 Built with React and Socket.io
 
+################################
+    Install the dependencies
+################################
 
+In Visual Studio Code terminal, write;
 
-## Getting Started
-
-- Clone the Repo
-
-```
-git clone git@github.com:abolkog/tic-tac-toe-online.git
-```
-
-- Install the dependencies
-
-```
-cd tic-tac-toe-online
+cd react-tic-tac-toe
 npm install
-```
 
-- Run the server
+################################
+    Run the server side
+################################
 
-```
 npm run server
-```
 
-- Run the client
+################################
+    Run the client side
+################################
 
-```
-npm run client
-```
+1) cd client
+2) npm install 
+3) npm start
 
-- Open your browser and navigate to [http://localhost:3000/](http://localhost:3000/)
-
-- Start Playing

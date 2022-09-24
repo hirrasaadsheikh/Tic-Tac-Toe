@@ -1,10 +1,11 @@
 # Tick Tac Toe
 
+Built with React and Socket.io
+
 ################################
    Multiplayer Tic Tac Toe App 
 ################################
 
-Built with React and Socket.io
 
 ################################
     Install the dependencies

@@ -13,7 +13,7 @@ Built with React and Socket.io
 
 In Visual Studio Code terminal, write;
 
-1) cd react-tic-tac-toe
+1) cd Tic-Tac-Toe
 2) npm install
 
 ################################
